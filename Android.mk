@@ -4,6 +4,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter mido tissot vince,$(TARGET_DEVICE)),)
+ifneq ($(filter mido tissot vince tiffany,$(TARGET_DEVICE)),)
 
 endif
